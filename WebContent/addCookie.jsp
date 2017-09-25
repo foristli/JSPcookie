@@ -10,7 +10,7 @@
 	<% 
 		String name=request.getParameter("name");
 		Cookie c=new Cookie("username",name);
-		c.setMaxAge(3600);
+		c.setMaxAge(3700);
 		response.addCookie(c);
 	%>
 </body>
